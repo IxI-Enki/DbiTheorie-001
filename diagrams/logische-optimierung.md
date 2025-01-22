@@ -7,7 +7,8 @@
 flowchart BT
   classDef steps fill:#00000002, stroke:#0000005a, stroke-width:1px, color:#fff, stroke-dasharray: 2 5;
 
-  subgraph step0[<sup>*ohne optimierung*</sup>]
+  subgraph step0[ <sup> *ohne optimierung* </sup> ]
+
     direction BT
   classDef cross fill:#0000005d, stroke:#0000008a, stroke-width:2px, color:#fff, stroke-dasharray: 2 5;
   classDef node fill:#0000005d, stroke:#0000008a, stroke-width:1px, color:#fff, stroke-dasharray: 2 5;
