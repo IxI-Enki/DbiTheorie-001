@@ -1,20 +1,13 @@
 
-<div align="center">
-  
-| <img alt="ohne-optimierung" src="img/ohne-optimierung.png" width=50%> | ![  ]( .png)|
-|:--:|:--:|
-
-</div>
-
 <!-- ## Logische Optimierung
 -->
 ```mermaid
-%%{init: { "flowchart": { "curve": "linear" } } }%%
+%%{init: { "flowchart": { "curve": "step" } } }%%
 
 flowchart BT
   classDef steps fill:#00000002, stroke:#0000005a, stroke-width:1px, color:#fff, stroke-dasharray: 2 5;
 
-  subgraph step0[ <sup> *ohne optimierung* </sup> ]
+  subgraph step0[ *ohne optimierung* ]
     direction BT
   classDef cross fill:#0000005d, stroke:#0000008a, stroke-width:2px, color:#fff, stroke-dasharray: 2 5;
   classDef node fill:#0000005d, stroke:#0000008a, stroke-width:1px, color:#fff, stroke-dasharray: 2 5;
@@ -23,8 +16,8 @@ flowchart BT
 
   noteX
   0((**δ**))
-  1(***π*** <sub>*s*.Semester</sub>)
-  2(***σ*** <sub>*p*.Name = 'Sokrates' ***and*** ... </sub>)
+  1(***π*** *s*.Semester )
+  2(***σ*** *p*.Name ='Sokrates' ***and***... )
   p[Professoren *p*]
   s[Semester *s*]
   h[Hören *h*]
@@ -79,9 +72,12 @@ flowchart BT
   class note,note1,note2,noteH,noteS,noteV,noteP,noteX note;
 end
 class step0 steps;
-
-  
 ```
+
+
+| ![ohne-optimierung](img/ohne-optimierung.png) | ![  ]( .png)|
+|:--:|:--:|
+
 
 
  
