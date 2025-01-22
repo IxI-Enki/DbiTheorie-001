@@ -2,9 +2,9 @@
 ## Logische Optimierung
 
 ```mermaid
-%%{init: { "flowchart-elk": { "curve": "basis" } } }%%
+%%{init: { "flowchart": { "curve": "linear" } } }%%
 
-flowchart-elk TB
+flowchart TB
   classDef cross fill:#000,stroke:#ffffff4d,stroke-width:2px,color:#fff,stroke-dasharray: 2 4;
   
   0[δ]
