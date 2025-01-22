@@ -1,6 +1,10 @@
+
+<div align="center" width=70%>
+  
 | ![ohne-optimierung](img/ohne-optimierung.png) | ![  ]( .png)|
 |:--:|:--:|
 
+</div>
 
 <!-- ## Logische Optimierung
 -->
