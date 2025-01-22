@@ -8,15 +8,15 @@
 ```mermaid
 %%{init: { "flowchart": { "curve": "step" } } }%%
 
-flowchart BT
+flowchart LR
   classDef steps fill:#00000002, stroke:#0000005a, stroke-width:1px, color:#fff, stroke-dasharray: 2 5;
-
-  subgraph step0[ *ohne optimierung* ]
-    direction BT
   classDef cross fill:#0000005d, stroke:#0000008a, stroke-width:2px, color:#fff, stroke-dasharray: 2 5;
   classDef node fill:#0000005d, stroke:#0000008a, stroke-width:1px, color:#fff, stroke-dasharray: 2 5;
   classDef sub fill:#0000000b, stroke:#ffffff0e, stroke-width:1px, color:#fff;
   classDef note fill:#00000031, stroke:#0000005a, stroke-width:1px, color:#fff, stroke-dasharray: 2 5;
+
+  subgraph step0[ *ohne optimierung* ]
+  direction BT
 
   0((**δ**))
   1(***π*** *s*.Semester )
@@ -50,31 +50,68 @@ flowchart BT
   %% 8      
   h  --> x3       
   linkStyle 0,1,2,3,4,5,6,7,8 fill:none, stroke:#555, stroke-width:2px, color:white;
-%%  subgraph sub0 [" "]
-%%    0
-%%    note( Result )
-%%  end
-%%  subgraph sub1 [" "]
-%%    1
-%%    note1( Distinct )
-%%  end
-%%  subgraph sub2 [" "]
-%%    2
-%%    note2( Where-Clausle )
-%%  end
-%% 
-%%  subgraph subX [" "]
-%%    noteX( Cross-Joins )
-%%    x  
-%%    x2
-%%    x3
-%%  end
-%%  class sub0,sub1,sub2,subP,subV,subS,subH,subX sub;
-%%  class note,note1,note2,noteH,noteS,noteV,noteP,noteX note;
-end
-class step0 steps;
+  %%  subgraph sub0 [" "]
+  %%    0
+  %%    note( Result )
+  %%  end
+  %%  subgraph sub1 [" "]
+  %%    1
+  %%    note1( Distinct )
+  %%  end
+  %%  subgraph sub2 [" "]
+  %%    2
+  %%    note2( Where-Clausle )
+  %%  end
+  %% 
+  %%  subgraph subX [" "]
+  %%    noteX( Cross-Joins )
+  %%    x  
+  %%    x2
+  %%    x3
+  %%  end
+  %%  class sub0,sub1,sub2,subP,subV,subS,subH,subX sub;
+  %%  class note,note1,note2,noteH,noteS,noteV,noteP,noteX note;
+  end
+
+subgraph step1[ *Aufspalten der Selectionsprädikate* ]
+  direction BT
+
+  01((**δ**))
+  11(***π*** *s*.Semester )
+  21a(***σ*** *p*.PersNr=*v*.gelesenVon)
+  21b(***σ*** *v*.VorlNr=*h*.VorlNr)
+  21c(***σ*** *s*.MatrNr=*h*.MatrNr)
+  21d(***σ*** *p*.Name ='Sokrates')
+  p1[Professoren *p*]
+  s1[Semester *s*]
+  h1[Hören *h*]
+  v1[Vorlesungen *v*]
+  x_((**✕**))
+  x2_((**✕**))
+  x3_((**✕**))
+  class x_,x2_,x3_ cross;
+  class 01,11,21,p1,v1,s1,h1 node;
+  
+  11  --> 01        
+  21a  --> 11        
+  x_  --> 21d
+  21b --> 21a
+  21c --> 21b        
+  21d --> 21c
+  x2_ --> x_        
+  x3_ --> x2_       
+  v1  --> x2_       
+  p1  --> x_        
+  s1  --> x3_       
+  h1  --> x3_    
+  linkStyle 9,10,11,12,13,14,15,16,17 fill:none, stroke:#555, stroke-width:2px, color:white;
+
+  end
+
+step0 --- step1
 
   
+class step0,step1 steps;
 ```
 
 
