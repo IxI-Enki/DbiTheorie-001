@@ -1,7 +1,7 @@
 
-<div align="center" width=70%>
+<div align="center">
   
-| ![ohne-optimierung](img/ohne-optimierung.png) | ![  ]( .png)|
+| <img alt="ohne-optimierung" src="/ohne-optimierung.png", width=70%> | ![  ]( .png)|
 |:--:|:--:|
 
 </div>
