@@ -7,9 +7,10 @@
 flowchart BT
   classDef cross fill:#0000005d, stroke:#0000008a, stroke-width:2px, color:#fff, stroke-dasharray: 2 5;
   classDef node fill:#0000005d, stroke:#0000008a, stroke-width:1px, color:#fff, stroke-dasharray: 2 5;
-  classDef sub fill:#0000000b, stroke:#00000000;
+  classDef sub fill:#0000000b, stroke:#ffffff0e, stroke-width:1px, color:#fff;
   classDef note fill:#00000031, stroke:#0000005a, stroke-width:1px, color:#fff, stroke-dasharray: 2 5;
 
+  noteX
   0((**δ**))
   1(***π*** <sub>*s*.Semester</sub>)
   2(***σ*** <sub>*p*.Name = 'Sokrates' ***and*** ... </sub>)
@@ -19,7 +20,6 @@ flowchart BT
   v[Vorlesungen *v*]
    x((**✕**))
   x2((**✕**))
-  noteX
   x3((**✕**))
   
   class x,x2,x3 cross;
