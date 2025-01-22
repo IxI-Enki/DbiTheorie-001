@@ -16,15 +16,15 @@
 -->
 
 <!-- <sub><sub>✔️</sub></sub> -->   
-##  <sub><sup color="green">●</sup></sub>  Ⅰ ) <p align="center">[ <sup><sub><sup color="silver">click</sub><sub><sub color="grey">click</sub></sub></sub>👉🏼</sup></sub></sup> Laufzeitkomplexität ](https://github.com/IxI-Enki/DbiTheorie-000/blob/master/runtime%20complexity/README.md)</p> 
+##  <sub><sup color="green">●</sup></sub>  Ⅰ ) <p align="center">[ <sup><sub><sup>click</sub><sub><sub>click</sub></sub></sub>👉🏼</sup></sub></sup> Laufzeitkomplexität ](https://github.com/IxI-Enki/DbiTheorie-000/blob/master/runtime%20complexity/README.md)</p> 
 
 
 <!-- <sub><sub>✔️</sub></sub> -->
-##  <sub><sup color="lime">●</sup></sub> Ⅱ ) <p align="center">[ <sup><sub><sup color="silver">click</sub><sub><sub color="grey">click</sub></sub></sub>👉🏼</sup></sub></sup> Join Implementierungen ]( )</p>
+##  <sub><sup color="lime">●</sup></sub> Ⅱ ) <p align="center">[ <sup><sub><sup>click</sub><sub><sub>click</sub></sub></sub>👉🏼</sup></sub></sup> Join Implementierungen ]( )</p>
      
 
 <!-- <sub><sub>✔️</sub></sub>  -->  
-##  <sub><sup color="cyan">●</sup></sub> Ⅲ ) <p align="center">[ <sup><sub><sup color="silver">click</sub><sub><sub color="grey">click</sub></sub></sub>👉🏼</sup></sub></sup> PL-SQL ]( )</p> 
+##  <sub><sup color="cyan">●</sup></sub> Ⅲ ) <p align="center">[ <sup><sub><sup>click</sub><sub><sub>click</sub></sub></sub>👉🏼</sup></sub></sup> PL-SQL ]( )</p> 
  
 - Hier finden Sie:
   - [weitere Quellen](https://github.com/IxI-Enki/DbiTheorie-001/blob/master/further-links.md)
