@@ -1,6 +1,10 @@
-
-<!-- ## Logische Optimierung
+<!--
+| ![ohne-optimierung](img/ohne-optimierung.png) | ![  ]( .png)|
+|:--:|:--:|
 -->
+
+ ## Logische Optimierung
+
 ```mermaid
 %%{init: { "flowchart": { "curve": "step" } } }%%
 
@@ -14,7 +18,6 @@ flowchart BT
   classDef sub fill:#0000000b, stroke:#ffffff0e, stroke-width:1px, color:#fff;
   classDef note fill:#00000031, stroke:#0000005a, stroke-width:1px, color:#fff, stroke-dasharray: 2 5;
 
-  noteX
   0((**δ**))
   1(***π*** *s*.Semester )
   2(***σ*** *p*.Name ='Sokrates' ***and***... )
@@ -47,37 +50,32 @@ flowchart BT
   %% 8      
   h  --> x3       
   linkStyle 0,1,2,3,4,5,6,7,8 fill:none, stroke:#555, stroke-width:2px, color:white;
-  
-  
-  subgraph sub0 [" "]
-    0
-    note( Result )
-  end
-  subgraph sub1 [" "]
-    1
-    note1( Distinct )
-  end
-  subgraph sub2 [" "]
-    2
-    note2( Where-Clausle )
-  end
- 
-  subgraph subX [" "]
-    noteX( Cross-Joins )
-    x  
-    x2
-    x3
-  end
-  class sub0,sub1,sub2,subP,subV,subS,subH,subX sub;
-  class note,note1,note2,noteH,noteS,noteV,noteP,noteX note;
+%%  subgraph sub0 [" "]
+%%    0
+%%    note( Result )
+%%  end
+%%  subgraph sub1 [" "]
+%%    1
+%%    note1( Distinct )
+%%  end
+%%  subgraph sub2 [" "]
+%%    2
+%%    note2( Where-Clausle )
+%%  end
+%% 
+%%  subgraph subX [" "]
+%%    noteX( Cross-Joins )
+%%    x  
+%%    x2
+%%    x3
+%%  end
+%%  class sub0,sub1,sub2,subP,subV,subS,subH,subX sub;
+%%  class note,note1,note2,noteH,noteS,noteV,noteP,noteX note;
 end
 class step0 steps;
+
+  
 ```
-
-
-| ![ohne-optimierung](img/ohne-optimierung.png) | ![  ]( .png)|
-|:--:|:--:|
-
 
 
  
