@@ -69,23 +69,23 @@
       SELECT * FROM highsal_emps;
       ```
 -->
-    ---
+  ---
 
-    *Weiteres Beispiel*:  
+  *Weiteres Beispiel*:  
 
-    ```sql
-    CREATE 
-      MATERIALIZED VIEW low_sal_emps
-        REFRESH ON COMMIT
-    AS
-      SELECT * FROM emp WHERE sal < 2500;
+  ```sql
+  CREATE 
+    MATERIALIZED VIEW low_sal_emps
+      REFRESH ON COMMIT
+     AS
+       SELECT * FROM emp WHERE sal < 2500;
    
-    SELECT * FROM low_sal_emps;
+  SELECT * FROM low_sal_emps;
    
-    BEGIN
-        dbms_mview.refresh( 'low_sal_emps' );
-    END;
-    ```
+  BEGIN
+      dbms_mview.refresh( 'low_sal_emps' );
+  END;
+  ```
 
 -------------------------------------------------------------------------------
 <!--========================================================================-->
