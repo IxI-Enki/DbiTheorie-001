@@ -26,6 +26,9 @@
 <!-- <sub><sub>✔️</sub></sub>  -->  
 ##  <sub><sup color="cyan">●</sup></sub> Ⅲ ) <p align="center">[ <sup><sub><sup color="silver">click</sub><sub><sub color="grey">click</sub></sub></sub>👉🏼</sup></sub></sup> PL-SQL ]( )</p> 
  
+- Hier finden Sie:
+  - [weitere Quellen](https://github.com/IxI-Enki/DbiTheorie-001/blob/master/further-links.md)
+  - [Code der Stunden](https://github.com/IxI-Enki/DbiTheorie-001/tree/master/code-der-stunden)
 
 <!-- <sub><sub>✔️</sub></sub>  
 ##  <sub><sup color="teal">●</sup></sub> Ⅳ ) <p align="center">[ <sup><sub><sup color="silver">click</sub><sub><sub color="grey">click</sub></sub></sub>👉🏼</sup></sub></sup> Benutzer, Rollen, Synonyme & Rechte ](https://github.com/IxI-Enki/DbiTheorie-000/blob/master/users%2C%20roles%2C%20grants%20%26%20synonyms/README.md)</p> 
