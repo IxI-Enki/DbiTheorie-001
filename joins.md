@@ -29,19 +29,19 @@ verschoben werden.
 zusammenfassen.
 
 ### Kosten von Operationen
-  ### Projektion:
-   > #### π 
-   - Keine Kosten falls mit anderem Operator kombiniert
-  ### Selektion
-   > #### σ 
-   - Ohne Index: Gesamte Relation von Festplatte lesen
-   - Mit Baum-Index: Teil des Index von Platte lesen (Baumtiefe)
+  - ### Projektion:
+      > #### π 
+      - Keine Kosten falls mit anderem Operator kombiniert
+  - ### Selektion
+      > #### σ 
+      - Ohne Index: Gesamte Relation von Festplatte lesen
+      - Mit Baum-Index: Teil des Index von Platte lesen (Baumtiefe)
 und gesuchte Seite von Platte lesen
-   - Bei Pipelining: (Fast) keine Kosten
-  ### Join
-   > #### ⨝ 
-   - Je nach Joinalgorithmus
-   - Nested Loops, Hash-Join, Sort-Merge Join
+      - Bei Pipelining: (Fast) keine Kosten
+  - ### Join
+      > #### ⨝ 
+      - Je nach Joinalgorithmus
+      - Nested Loops, Hash-Join, Sort-Merge Join
 
 - Wesentliches Kostenmerkmal: Anzahl der Tupel im Input
   - Insbesondere: Passt die Relation in den Hauptspeicher?
