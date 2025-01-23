@@ -14,6 +14,6 @@
 
  |  **4** | **5** |  
  |:------:|:-----:|  
- | <img src="img/results-canon-004B.png" width=100%> | <img src="img/results-canon-005.png" width=100%> |  
+ | <img src="img/results-canon-004B.png" width=100%> | <img src="img/results-canon-005B.png" width=100%> |  
  
 
