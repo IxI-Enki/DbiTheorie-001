@@ -9,9 +9,9 @@
 
 ---
 
-- **Erhaltene Ergebnisse im Vergleich:**
+### **Erhaltene Ergebnisse im Vergleich:**
 
- |  **4** | **5** |  
- |:---:|:---:|  
- | <img src="img/results-canon-004B.svg" width=100%> | <img src="img/results-canon-005B.svg" width=100%> |  
+> |  **4** | **5** |  
+> |:------:|:-----:|  
+> | <img src="img/results-canon-004B.svg" width=100%> | <img src="img/results-canon-005B.svg" width=100%> |  
 
