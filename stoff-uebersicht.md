@@ -5,9 +5,9 @@
     - Funktionsweise anhand eines kleinen Beispiels (siehe "Weitere Übungsbeispiele inkl. Lösungen").
     - Einsatzbereich - welcher JOIN für welche Abfrage / bzw. Situation (ala Query gegeben, welcher JOIN wäre optimal inkl Begründung)
 
-* Logische Optimierung (siehe Folien + verlinkte Videos):
-- Überführen einer SQL-Abfrage in deren kannonische Übersetzung (=Abfragebaum unoptimiert)
-- Optimieren der Abfrage anhand der Äquvalenzregeln (Folien: "Logische Optimierung")
+> * Logische Optimierung (siehe Folien + verlinkte Videos)
+> - Überführen einer SQL-Abfrage in deren kannonische Übersetzung (=Abfragebaum unoptimiert)
+> - Optimieren der Abfrage anhand der Äquvalenzregeln (Folien: "Logische Optimierung")
 - Abschätzen der Größe der Zwischenergebnisse im unpotimierten / optimierten Fall
 
 * Materialized Views
