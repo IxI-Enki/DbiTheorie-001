@@ -10,10 +10,10 @@ SELECT DISTINCT s.Semester
     Vorlesungen v,
     Professoren p
   WHERE
-    p.Name = ´Sokrates´
-and v.gelesenVon = p.PersNr
-and v.VorlNr = h.VorlNr
-and h.MatrNr = s.MatrNr
+        p.Name = ´Sokrates´
+    and v.gelesenVon = p.PersNr
+    and v.VorlNr = h.VorlNr
+    and h.MatrNr = s.MatrNr
 ```
 
  
