@@ -43,16 +43,14 @@
   - Output ist Input des nächsten Operators.
     > Deshalb: Ein Kostenmodel schätzt u.a. für jede Operation die Anzahl der Ausgabetupel.
   - „Selektivität“ in Bezug auf Inputgröße
-  
   - #Ausgabetupel = #Eingabetupel x Selektivität
-  - Auch „Selektivitätsfaktor“ (selectivity factor, sf)
+    > Auch „Selektivitätsfaktor“ (selectivity factor, sf)
 
-### Selektivität
-- Selektivität schätzt Anzahl der qualifizierenden Tupel relativ zur
-Gesamtanzahl der Tupel in der Relation.
-- Projektion:
-  > sf = |R|/|R| = 1
-- Selektion:
-  > sf = |σC(R)| / |R|
-- Join:
-  > sf = |R ⋈ S| / |R x S| = |R ⋈ S| / (|R| · |S|)
+  - ### Selektivität
+    - Selektivität schätzt Anzahl der qualifizierenden Tupel relativ zur Gesamtanzahl der Tupel in der Relation.
+    - Projektion:
+      > sf = |R|/|R| = 1
+    - Selektion:
+      > sf = |σC(R)| / |R|
+    - Join:
+      > sf = |R ⋈ S| / |R x S| = |R ⋈ S| / (|R| · |S|)
