@@ -12,6 +12,7 @@
   - Wähle für jede Operation die (hoffentlich) beste Implementierung
 - Abhängigkeit beider Probleme!
 
+<!--  δ --->
 
 ### Logische Optimierung
 - Grundsätze der logischen Optimierung
@@ -28,14 +29,17 @@ verschoben werden.
 zusammenfassen.
 
 ### Kosten von Operationen
-- Projektion:
+- ##### Projektion:
+    > ##### π 
   - Keine Kosten falls mit anderem Operator kombiniert
-- Selektion
+- #### Selektion
+    > ##### σ 
   - Ohne Index: Gesamte Relation von Festplatte lesen
   - Mit Baum-Index: Teil des Index von Platte lesen (Baumtiefe)
 und gesuchte Seite von Platte lesen
   - Bei Pipelining: (Fast) keine Kosten
-- Join
+- #### Join
+    > ##### 
   - Je nach Joinalgorithmus
   - Nested Loops, Hash-Join, Sort-Merge Join
 
