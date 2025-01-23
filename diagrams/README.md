@@ -1,5 +1,21 @@
 <!-- -->
- ## Logische Optimierung
+## Logische Optimierung - 'Anwenden der Transformationsregeln'
+
+#### SQL-Abfrage, die optimiert werden soll: 
+```sql
+SELECT DISTINCT s.Semester
+  FROM
+    Studenten s,
+    hören h,
+    Vorlesungen v,
+    Professoren p
+  WHERE
+    p.Name = ´Sokrates´
+and v.gelesenVon = p.PersNr
+and v.VorlNr = h.VorlNr
+and h.MatrNr = s.MatrNr
+```
+
  
  |  1  |  2  |  3  |  
  |:---:|:---:|:---:|  
