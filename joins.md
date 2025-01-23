@@ -29,9 +29,9 @@ verschoben werden.
 zusammenfassen.
 
 ### Kosten von Operationen
-  - ### Projektion $\Large\color{yellow}{π}$ 
+  - ### Projektion $\Large\color{lime}{π}$ 
       - Keine Kosten falls mit anderem Operator kombiniert
-  - ### Selektion $\Large\color{lime}{σ}$ 
+  - ### Selektion $\Large\color{yellow}{σ}$ 
       - Ohne Index: Gesamte Relation von Festplatte lesen
       - Mit Baum-Index: Teil des Index von Platte lesen (Baumtiefe)
 und gesuchte Seite von Platte lesen
