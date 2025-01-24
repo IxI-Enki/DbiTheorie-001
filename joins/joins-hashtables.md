@@ -17,7 +17,7 @@
   >   - *Outer Join (Left, Right, Full)* 
   >   - *Cross Join* 
   >
-  > <img src="img/logical-joins.png" alt="logical joins" width=90%>
+  > <img src="img/logical-joins.png" alt="logical joins" width=70%>
   > 
 ---
 
