@@ -66,21 +66,4 @@ Gesamtanzahl der Tupel in der Relation.
 - Join:
   > sf = |R ⋈ S| / |R x S| = |R ⋈ S| / (|R| · |S|)
 
-
-------------
-
-- *Beispiel:*
-  > Gegeben sei die folgende SQL-Anfrage:
-  > ```SQL
-  > SELECT DISTINCT 
-  >   a.PersNr , 
-  >   a.Name
-  > FROM 
-  >   Assistenten a , 
-  >   Studenten s , 
-  >   pruefen p
-  > WHERE 
-  >       s.MatrNr = p.MatrNr
-  >   AND a.Boss   = p.PersNr
-  >   AND s.Name   = 'Jonas';
-  > ```
+ 
