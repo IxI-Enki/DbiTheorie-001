@@ -1,3 +1,10 @@
+###### <p align="center"> Kanonische Übersetzung - logisches optimieren </p> 
+
+- [ Zu den Übungen ](https://github.com/IxI-Enki/DbiTheorie-001/blob/master/canonic-translation/kanonische-uebung.md)
+- [ Zu graphischen Beispielen ](https://github.com/IxI-Enki/DbiTheorie-001/tree/master/diagrams)
+
+---
+
 ## Logische und physische Optimierung
 - Logische Optimierung
   - Jeder Ausdruck kann in viele verschiedene, semantisch äquivalente Ausdrücke umgeschrieben werden.
