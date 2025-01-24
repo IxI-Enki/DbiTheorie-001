@@ -27,12 +27,13 @@
 <!-- <sub><sub>✔️</sub></sub>  -->  
 ##  <sub><sup color="cyan">●</sup></sub> Ⅲ ) <p align="center">[ <sup><sub><sup>click</sub><sub><sub>click</sub></sub></sub>👉🏼</sup></sub></sup> Hash-Tables ]( https://github.com/IxI-Enki/DbiTheorie-001/blob/master/hash-tables.md)</p> 
 
+---
 <!-- <sub><sub>✔️</sub></sub>  -->  
 ##  <sub><sup color="cyan">●</sup></sub> Ⅳ ) <p align="center">[ <sup><sub><sup>click</sub><sub><sub>click</sub></sub></sub>👉🏼</sup></sub></sup> Kanonische Übersetzung ]( https://github.com/IxI-Enki/DbiTheorie-001/blob/master/canonic-translation/optimierung.md )</p> 
 #### <p align="right"> [ weitere Übungen ](https://github.com/IxI-Enki/DbiTheorie-001/blob/master/joins/kanonische-uebung.md) </p>
 #### <p align="right"> [ Anwendung der Transformationsregeln ]( https://github.com/IxI-Enki/DbiTheorie-001/tree/master/diagrams ) </p>
 
-
+---
 <!-- <sub><sub>✔️</sub></sub>  -->  
 ##  <sub><sup color="cyan">●</sup></sub> Ⅴ ) <p align="center">[ <sup><sub><sup>click</sub><sub><sub>click</sub></sub></sub>👉🏼</sup></sub></sup>   ](   )</p> 
 
