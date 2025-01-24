@@ -41,6 +41,21 @@
 <!-- <sub><sub>✔️</sub></sub>  -->  
 ##  <sub><sup color="cyan">●</sup></sub> Ⅵ ) <p align="center">[ <sup><sub><sup>click</sub><sub><sub>click</sub></sub></sub>👉🏼</sup></sub></sup>  PL-SQL  ](   )</p> 
 
+<div align="right">
+  
+  | Thema                  | Link zur Übung     |  
+  |  ---:                  | :----------------- |  
+  | | |  
+  | PLSQL - `PROCEDURE` :  | [ TRANSFER_MONEY( ..in numbers, ..out numbers ) ](https://github.com/IxI-Enki/DbiUebung-005) |  
+  | | |  
+  | PLSQL - `FUNCTION` :   | [ EMP_FAIRNESS_CHECK(empno number) ](https://github.com/IxI-Enki/DbiUebung-003) |  
+  | | |  
+  | PLSQL - `CURSOR` :     | [ CALC_PLAYER_BONUS(playerno number) ](https://github.com/IxI-Enki/DbiUebung-004) |  
+  | | |  
+
+</div>
+
+
 ---
 
 
@@ -51,4 +66,10 @@
   - [PDFs](https://github.com/IxI-Enki/DbiTheorie-001/tree/master/pdfs)
   ---
   - [Übungen](https://github.com/IxI-Enki/DbiTheorie-001/blob/master/uebungen.md)
+ 
+
+
+
+
+
  
