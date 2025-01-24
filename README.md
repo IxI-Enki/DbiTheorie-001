@@ -39,7 +39,7 @@
 
 ---
 <!-- <sub><sub>✔️</sub></sub>  -->  
-##  <sub><sup color="cyan">●</sup></sub> Ⅵ ) <p align="center">[ <sup><sub><sup>click</sub><sub><sub>click</sub></sub></sub>👉🏼</sup></sub></sup>  PL-SQL  ](   )</p> 
+##  <sub><sup color="cyan">●</sup></sub> Ⅵ ) <p align="center">[ <sup><sub><sup>click</sub><sub><sub>click</sub></sub></sub>👉🏼</sup></sub></sup>  PL-SQL  ]( https://github.com/IxI-Enki/DbiTheorie-001/blob/master/plsql )</p> 
 
 <div align="right">
   
@@ -55,17 +55,14 @@
 
 </div>
 
-
 ---
-
-
  
 - Hier finden Sie:
-  - [weitere Quellen](https://github.com/IxI-Enki/DbiTheorie-001/blob/master/further-links.md)
-  - [Code der Stunden](https://github.com/IxI-Enki/DbiTheorie-001/tree/master/code-der-stunden)
-  - [PDFs](https://github.com/IxI-Enki/DbiTheorie-001/tree/master/pdfs)
+  - [ Code der Stunden ](https://github.com/IxI-Enki/DbiTheorie-001/tree/master/code-der-stunden)
+  - [ PDFs ](https://github.com/IxI-Enki/DbiTheorie-001/tree/master/pdfs)
+  - [ weitere Quellen ](https://github.com/IxI-Enki/DbiTheorie-001/blob/master/further-links.md)
   ---
-  - [Übungen](https://github.com/IxI-Enki/DbiTheorie-001/blob/master/uebungen.md)
+  - [ PL-SQL Übungen ](https://github.com/IxI-Enki/DbiTheorie-001/blob/master/uebungen.md)
  
 
 
