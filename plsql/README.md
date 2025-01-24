@@ -1,12 +1,11 @@
-
 ###### <p align="center"> PL - SQL </p>
-
+<!--
 <div align="center">
 
   <img src="img/generated-banner.jpg" alt="banner" height=200px width=400px>
 
 </div>
- 
+-->
 # PL/SQL Introduction
 
 
@@ -45,12 +44,12 @@ Applications written in PL/SQL are portable to computer hardware or operating sy
 ## Structure of PL/SQL Block
 PL/SQL extends SQL by adding constructs found in procedural languages, resulting in a structural language that is more powerful than SQL. The basic unit in PL/SQL is a block. All PL/SQL programs are made up of blocks, which can be nested within each other.
 
-<div align="center">
-
-  <img src="img/plsql-block.png" alt="banner" height=250px width=450px>
-
-</div>
-
+> <div align="center">
+>
+>  <img src="img/plsql-block.png" alt="banner" height=250px width=450px>
+>
+></div>
+>
   > A block has the following structure:
   >   ```SQL
   >   DECLARE
