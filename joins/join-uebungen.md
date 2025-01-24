@@ -19,7 +19,7 @@
   <details>
     <summary> click 4
 
-    $\Large\color{lime}{\ 👉🏼\ Lösung\ :\ }$ 
+    $\Large\color{lime}{\ ► \ Lösung\ :\ }$ 
     </summary>
  
   - **a**<sub>)</sub>
@@ -81,7 +81,7 @@
   <details>
     <summary> click 4
 
-    $\Large\color{lime}{\ 👉🏼\ Lösung\ :\ }$ 
+    $\Large\color{lime}{\ ► \ Lösung\ :\ }$ 
     </summary>  
 
     <div align="center">
