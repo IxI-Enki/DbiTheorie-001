@@ -1,9 +1,9 @@
 *JOINs siehe (verlinktes Videos)
 > - Eigenschaften / Funktionsweise von Hash-Tabellen
 > - Physische JOIN Implementierungen (Nested Loop, Hash, Sort-Merge, Nested Loop + Index):
-    - Komplexitätsklassen (Achtung: Im Video angegebenes 2*n*log(n) bei Sort-Merge JOIN nur wenn Daten unsortiert, sonst O(n))
-    - Funktionsweise anhand eines kleinen Beispiels (siehe "Weitere Übungsbeispiele inkl. Lösungen").
-    - Einsatzbereich - welcher JOIN für welche Abfrage / bzw. Situation (ala Query gegeben, welcher JOIN wäre optimal inkl Begründung)
+>    - Komplexitätsklassen (Achtung: Im Video angegebenes 2*n*log(n) bei Sort-Merge JOIN nur wenn Daten unsortiert, sonst O(n))
+>    - Funktionsweise anhand eines kleinen Beispiels (siehe "Weitere Übungsbeispiele inkl. Lösungen").
+>    - Einsatzbereich - welcher JOIN für welche Abfrage / bzw. Situation (ala Query gegeben, welcher JOIN wäre optimal inkl Begründung)
 
 > * Logische Optimierung (siehe Folien + verlinkte Videos)
 > - Überführen einer SQL-Abfrage in deren kannonische Übersetzung (=Abfragebaum unoptimiert)
