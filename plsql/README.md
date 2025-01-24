@@ -48,7 +48,7 @@ PL/SQL extends SQL by adding constructs found in procedural languages, resulting
 >
 > <div align="center">
 >
->  | <img src="img/plsql-block.png" alt="banner" height=250px width=450px> | <img src="img/plsql-code.png" alt="banner" height=250px width=350px> |
+>  | <img src="img/plsql-block.png" alt="banner" height=250px width=450px> | <img src="img/plsql-code.png" alt="banner" height=250px width=300px> |
 >  | :--: | :--: |
 >
 ></div>
