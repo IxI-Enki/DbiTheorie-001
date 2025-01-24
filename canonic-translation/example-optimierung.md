@@ -20,8 +20,8 @@
 ```mermaid
 flowchart BT
   0((**δ**))
-  d(**𝜋** <sub> a.PersNr, a.Name</sub> )
-  w(**σ** <sub>s.MartNr = p.MatrNr **AND**..</sub>)
+  d(**𝜋** a.PersNr, a.Name )
+  w(**σ** s.MartNr = p.MatrNr **AND**..)
   
 %%  sJ[s.Name   = 'Jonas']
 %%  ap[a.Boss   = p.PersNr]
@@ -47,8 +47,8 @@ flowchart BT
 ```mermaid
 flowchart BT
   0((**δ**))
-  d(**𝜋** <sub> a.PersNr, a.Name</sub> )
-%%  w(**σ** <sub>s.MartNr = p.MatrNr **AND**..</sub>)
+  d(**𝜋**  a.PersNr, a.Name  )
+%%  w(**σ** s.MartNr = p.MatrNr **AND**.. )
   
   sJ(**σ** <sub>s.Name   = 'Jonas'</sub>)
   ap(**σ** <sub>a.Boss   = p.PersNr</sub>)
