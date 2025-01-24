@@ -1,8 +1,8 @@
 - ### ▷ Materialized View
 
-  > - Materialized Views sind eigentlich **Tabellen**, die **die Daten** der angegebenen **Query enthalten**.  
-  > - Sie haben den **Vorteil**, dass anders als bei einem View die hinterlegte **Query nicht** bei jeder > Abfrage **erneut ausgeführt** werden muss, dafür **benötigten** Sie **Speicherplatz**.  
-  > - Das **Ergebnis** der Query wird also gewissermaßen "**gecached**".  
+  - Materialized Views sind eigentlich **Tabellen**, die **die Daten** der angegebenen **Query enthalten**.  
+  - Sie haben den **Vorteil**, dass anders als bei einem View die hinterlegte **Query nicht** bei jeder > Abfrage **erneut ausgeführt** werden muss, dafür **benötigten** Sie **Speicherplatz**.  
+  - Das **Ergebnis** der Query wird also gewissermaßen "**gecached**".  
 
   ---
   ```sql
@@ -47,20 +47,20 @@
       SELECT * FROM highsal_emps;
       ```
 -->
-    ---
+  ---
 
-    *Weiteres Beispiel*:  
+- *Weiteres Beispiel*:  
 
-    ```sql
-    CREATE 
-      MATERIALIZED VIEW low_sal_emps
-        REFRESH ON COMMIT
-    AS
-      SELECT * FROM emp WHERE sal < 2500;
+  ```sql
+  CREATE 
+        MATERIALIZED VIEW low_sal_emps
+  REFRESH ON COMMIT
+  AS
+    SELECT * FROM emp WHERE sal < 2500;
    
     SELECT * FROM low_sal_emps;
    
-    BEGIN
-        dbms_mview.refresh( 'low_sal_emps' );
-    END;
-    ```
+  BEGIN
+      dbms_mview.refresh( 'low_sal_emps' );
+  END;
+  ```
