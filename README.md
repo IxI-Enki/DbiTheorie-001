@@ -17,6 +17,7 @@
 
 <!-- <sub><sub>✔️</sub></sub> -->   
 ##  <sub><sup color="green">●</sup></sub>  Ⅰ ) <p align="center">[ <sup><sub><sup> click </sub><sub><sub>click</sub></sub></sub>👉🏼</sup></sub></sup>  Laufzeitkomplexität  ](https://github.com/IxI-Enki/DbiTheorie-000/blob/master/runtime%20complexity/README.md)</p> 
+#### <p align="right"> [ Übung - Index & Komplexitätsklassen ]( https://github.com/IxI-Enki/DbiUebung-006 ) </p>
  
 <!-- <sub><sub>✔️</sub></sub> -->
 ##  <sub><sup color="lime">●</sup></sub> Ⅱ ) <p align="center">[ <sup><sub><sup>click</sub><sub><sub>click</sub></sub></sub>👉🏼</sup></sub></sup>  Join-Arten + Laufzeitkomplexität  ]( https://github.com/IxI-Enki/DbiTheorie-001/blob/master/joins/joins-komplexitaet.md ) </p>
