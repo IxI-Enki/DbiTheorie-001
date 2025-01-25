@@ -8,7 +8,7 @@
 ## Variablen
 - **Deklaration**: `VARIABLE_NAME datatype [:= value];`
   - Beispiele:
-    ```plsql
+    ```sql
     DECLARE
         v_number NUMBER := 10;
         v_name VARCHAR2(50) := 'John';
@@ -20,13 +20,13 @@
 ## Zuweisungen
 - **Zuweisen von Werten**: `variable := value`;
   - Beispiel:
-    ```plsql
+    ```sql
     v_number := 20;
     ```
 
 ## Kontrollstrukturen
 - **`IF`/`THEN`/`ELSE`**:
-  ```plsql
+  ```sql
   IF condition THEN
       -- Statements
   ELSIF another_condition THEN
@@ -41,7 +41,7 @@
 ---
 ## Schleifen:
   - ### Simple `LOOP`: 
-    ```plsql
+    ```sql
     LOOP
         -- Statements
         EXIT WHEN condition;
@@ -49,14 +49,14 @@
     ```
 
   - ### `FOR` Loop: 
-    ```plsql
+    ```sql
     FOR i IN 1..10 LOOP
         -- Statements
     END LOOP;
     ```
 
   - ### `WHILE` Loop:
-    ```plsql
+    ```sql
     WHILE condition LOOP
         -- Statements
     END LOOP;
@@ -68,7 +68,7 @@
 ## Anonyme Blöcke
 
 - **Definition**: Ein anonymer Block ist ein PL/SQL-Block, der nicht benannt ist und direkt ausgeführt wird.
-  ```plsql
+  ```sql
   BEGIN
       -- Statements hier
   END;
@@ -79,7 +79,7 @@
 
 - **Erstellen**:  
  
-  ```plsql
+  ```sql
   CREATE FUNCTION function_name (param1 datatype, ...)
   RETURN datatype IS
   BEGIN
@@ -94,7 +94,7 @@
 - **Eigenschaften**: Ähnlich wie Funktionen, aber geben keinen Wert zurück, sondern führen Operationen durch.  
   
 - **Erstellen**:  
-  ```plsql
+  ```sql
   CREATE PROCEDURE procedure_name (param1 datatype, ...)
   IS
   BEGIN
@@ -109,7 +109,7 @@
 ## Datenbankzugriff
 ### Lesen einer Zeile mittels `SELECT` ... `INTO`
 - ### In skalare Variablen:
-  ```plsql
+  ```sql
   DECLARE
       v_emp_id NUMBER;
       v_emp_name VARCHAR2(50);
@@ -121,12 +121,12 @@
 
 - ### Mit `%TYPE` und `%ROWTYPE`:
   - `%TYPE`: Behält den **Datentyp der Spalte** bei:
-    ```plsql
+    ```sql
     v_emp_id employees.employee_id%TYPE;
     ```
 
   - `%ROWTYPE`: Für eine ganze **Zeile als Record**:
-    ```plsql
+    ```sql
     v_emp_row employees%ROWTYPE;
     SELECT * INTO v_emp_row FROM employees WHERE employee_id = 100;
     ```
@@ -135,7 +135,7 @@
 ---
 ## Iterieren über Ergebnislisten mittels Cursor
 ### Manuelles `OPEN`/`FETCH`/`CLOSE`
-  ```plsql
+  ```sql
   DECLARE
       CURSOR emp_cursor IS
           SELECT employee_id, last_name FROM employees;
@@ -156,7 +156,7 @@
 
 ---
 ## `CURSOR-FOR` Schleife
-  ```plsql
+  ```sql
   DECLARE
       CURSOR emp_cursor IS
           SELECT employee_id, last_name FROM employees;
@@ -176,7 +176,7 @@
 - **Row-Level Trigger**: Führt für jede betroffene Zeile aus.
 - *Erstellen eines Triggers*:
 
-  ```plsql
+  ```sql
   CREATE OR REPLACE TRIGGER trigger_name
   BEFORE/AFTER INSERT/UPDATE/DELETE ON table_name
   FOR EACH ROW
