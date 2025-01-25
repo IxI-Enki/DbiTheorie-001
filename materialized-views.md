@@ -1,7 +1,7 @@
 - ### ▷ Materialized View
 
   - Materialized Views sind eigentlich **Tabellen**, die **die Daten** der angegebenen **Query enthalten**.  
-  - Sie haben den **Vorteil**, dass anders als bei einem View die hinterlegte **Query nicht** bei jeder > Abfrage **erneut ausgeführt** werden muss, dafür **benötigten** Sie **Speicherplatz**.  
+  - Sie haben den **Vorteil**, dass anders als bei einem View die hinterlegte **Query nicht** bei jeder Abfrage **erneut ausgeführt** werden muss, dafür **benötigten** Sie **Speicherplatz**.  
   - Das **Ergebnis** der Query wird also gewissermaßen "**gecached**".  
 
   ---
