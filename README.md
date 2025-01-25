@@ -39,7 +39,7 @@
 ---
 <!-- <sub><sub>✔️</sub></sub>  -->  
 ##  <sub><sup color="cyan">●</sup></sub> Ⅵ ) <p align="center">[ <sup><sub><sup>click</sub><sub><sub>click</sub></sub></sub>👉🏼</sup></sub></sup>  PL-SQL  ]( https://github.com/IxI-Enki/DbiTheorie-001/blob/master/plsql )</p> 
-#### <p align="right"> [ PL/SQL - Cheat-Sheet ]( https://github.com/IxI-Enki/DbiTheorie-001/blob/master/plsql/pl-sql-cheat-sheet.md ) </p>
+### <p align="center"> [ PL/SQL - Cheat-Sheet ]( https://github.com/IxI-Enki/DbiTheorie-001/blob/master/plsql/pl-sql-cheat-sheet.md ) </p>
 <div align="right">
   
   | Thema                  | Link zur Übung     |  
