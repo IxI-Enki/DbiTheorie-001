@@ -1,5 +1,6 @@
 ## Weiteres Üben:
 
+```SQL
 DROP SEQUENCE PK_ITEMS;
 --
 CREATE SEQUENCE PK_ITEMS 
@@ -270,7 +271,7 @@ END;
 /
 
 ---------------------------------------------------------- 
-
+```
 
 
 <!--  ▶ ► ▻ ▸ ▹  -->
