@@ -55,7 +55,9 @@
   | PLSQL - `FUNCTION` :   | [ EMP_FAIRNESS_CHECK(empno number) ](https://github.com/IxI-Enki/DbiUebung-003) |  
   | | |  
   | PLSQL - `CURSOR` :     | [ CALC_PLAYER_BONUS(playerno number) ](https://github.com/IxI-Enki/DbiUebung-004) |  
-  | | |  
+  | | |
+  | SQL - ALLES :          | [ WEITERES ÜBEN ](https://github.com/IxI-Enki/DbiTheorie-001/blob/master/code-der-stunden/README.md#weiteres-%C3%BCben) |
+  | | |
 
 </div>
 
